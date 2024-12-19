@@ -14,7 +14,7 @@ const Contact = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/send/mail",
+        "backendgym1-production.up.railway.app/send/mail",
         {
           name,
           email,
